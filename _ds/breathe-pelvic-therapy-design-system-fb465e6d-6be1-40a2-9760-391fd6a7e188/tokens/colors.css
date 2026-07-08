@@ -1,0 +1,54 @@
+:root {
+  /* Brand — forest green (primary) */
+  --color-forest-green: #147A3E;
+  --color-forest-green-deep: #0E5C2E;
+  --color-forest-green-light: #3E9B63;
+
+  /* Brand — slate blue (secondary) */
+  --color-slate-blue: #2D5A85;
+  --color-slate-blue-deep: #1F4263;
+  --color-slate-blue-light: #5A82A8;
+
+  /* Accent — gold (CTA, rare jewel) */
+  --color-gold: #C19A4B;
+  --color-gold-deep: #A47F36;
+  --color-gold-soft: #E7D6AD;
+
+  /* Earth neutrals — backgrounds & surfaces */
+  --color-cream: #FBF8F2;
+  --color-sand: #F2EBDD;
+  --color-sand-deep: #E6DBC6;
+  --color-stone: #D9D2C5;
+
+  /* Sage / olive — botanical support */
+  --color-sage: #A8B89A;
+  --color-sage-deep: #7C8F6D;
+  --color-sage-mist: #EBEFE6;
+
+  /* Ink / text */
+  --color-ink: #1C2620;
+  --color-ink-soft: #44514A;
+  --color-ink-muted: #6B756E;
+  --color-white: #FFFFFF;
+
+  /* Functional */
+  --color-success: #2E8B57;
+  --color-warning: #C19A4B;
+  --color-error: #B04A3F;
+  --color-info: #2D5A85;
+
+  /* Semantic aliases */
+  --surface-page: var(--color-cream);
+  --surface-alt: var(--color-sand);
+  --surface-mist: var(--color-sage-mist);
+  --surface-card: var(--color-white);
+  --surface-anchor: var(--color-forest-green-deep);
+  --border-soft: var(--color-sand-deep);
+  --border-muted: var(--color-stone);
+  --text-primary: var(--color-ink);
+  --text-body-color: var(--color-ink-soft);
+  --text-muted: var(--color-ink-muted);
+  --brand-primary: var(--color-forest-green);
+  --brand-secondary: var(--color-slate-blue);
+  --accent-cta: var(--color-gold);
+}
